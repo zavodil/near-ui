@@ -40,7 +40,7 @@ export default function App() {
                         deposit={deposit}
                         navDropdownRef={navDropdownRef}
                         isNavDropdownActive={isNavDropdownActive}
-                        appSettings={appSettings} />
+                        appSettings={appSettings}/>
                 <main>
                     <div className="background-img"/>
                     <h1>
@@ -106,7 +106,7 @@ export default function App() {
                         </ul>
                     </div>
                 </main>
-                <Footer appSettings={appSettings} />
+                <Footer appSettings={appSettings}/>
                 {showNotification && Object.keys(showNotification) &&
                 <Notification config={config} method={showNotification.method} data={showNotification.data}/>}
             </>
@@ -155,7 +155,7 @@ export default function App() {
                         deposit={deposit}
                         navDropdownRef={navDropdownRef}
                         isNavDropdownActive={isNavDropdownActive}
-                        appSettings={appSettings} />
+                        appSettings={appSettings}/>
                 <main>
                     <h1>{appSettings.appFullNme}</h1>
                     <p>
@@ -169,7 +169,7 @@ export default function App() {
                         <button onClick={login}>Sign in</button>
                     </p>
                 </main>
-                <Footer/>
+                <Footer appSettings={appSettings}/>
             </>
         )
     }
