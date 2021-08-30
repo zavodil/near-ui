@@ -44,8 +44,8 @@ body {
 
 @font-face {
   font-family: BwSeidoRound;
-  src: url(./fonts/389947_6_0.eot);
-  src: url(./fonts/389947_6_0.eot?#iefix) format("embedded-opentype"), url(./fonts/389947_6_0.woff2) format("woff2"), url(./fonts/389947_6_0.woff) format("woff"), url(./fonts/389947_6_0.ttf) format("truetype");
+  src: url(fonts/389947_6_0.eot);
+  src: url(fonts/389947_6_0.eot?#iefix) format("embedded-opentype"), url(fonts/389947_6_0.woff2) format("woff2"), url(fonts/389947_6_0.woff) format("woff"), url(fonts/389947_6_0.ttf) format("truetype");
   font-weight: 500;
   font-style: normal
 }
